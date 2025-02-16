@@ -12,9 +12,11 @@ A modern URL shortener that helps you shorten, manage, and track your links with
 ✅ Modern UI - Clean, responsive, and user-friendly interface.
 
 🛠 Tech Stack:
-Backend: Node.js, Express.js, MongoDB
-Frontend: EJS, HTML, CSS
-Database: MongoDB Atlas / Local MongoDB
+    Backend: Node.js, Express.js, MongoDB
+
+    Frontend: EJS, HTML, CSS
+
+    Database: MongoDB Atlas / Local MongoDB
 
 🚀 Installation & Setup
 
