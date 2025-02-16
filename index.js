@@ -5,14 +5,15 @@ const {connectMongodb} = require('./connections')
 const URL = require('./models/url')
 const {checkForAuthorization , restrictTo} = require('./middlewares/auth');
 const app = express()
+require("dotenv").config()
 
-const PORT = 8001;
-
+const PORT = process.env.PORT || 8001 ;
+const MONG_URI = process.env.MONG_URI;
 const urlRoutes = require('./routes/url');
 const StaticRoute = require('./routes/StaticRoutes');
 const userRoute = require('./routes/user');
 
-connectMongodb("mongodb://localhost:27017/short-url").then(()=>{
+connectMongodb(`${MONG_URI}`).then(()=>{
     console.log("Mongodb Connected.");
 })
 
