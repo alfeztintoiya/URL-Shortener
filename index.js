@@ -15,7 +15,7 @@ const userRoute = require('./routes/user');
 
 connectMongodb(`${MONG_URI}`).then(()=>{
     console.log("Mongodb Connected.");
-})
+}).catch((e) => console.log(e))
 
 app.use(express.static(path.join(__dirname+"/public")));
 
