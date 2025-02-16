@@ -4,11 +4,14 @@ A modern URL shortener that helps you shorten, manage, and track your links with
 
 🚀 Features
 ✅ Shorten URLs - Convert long URLs into short, shareable links.
+
 ✅ Click Analytics - Track how many times a link has been clicked.
+
 ✅ User Authentication - Secure login & signup functionality.
+
 ✅ Modern UI - Clean, responsive, and user-friendly interface.
 
-🛠 Tech Stack
+🛠 Tech Stack:
 Backend: Node.js, Express.js, MongoDB
 Frontend: EJS, HTML, CSS
 Database: MongoDB Atlas / Local MongoDB
@@ -57,7 +60,7 @@ Click Shorten to generate a short link.
 View analytics for each short URL.
 
 📸 Screenshots
-<img src="/image.png" alt="Home Page>
+<img src="/image.png" alt="Home Page">
 
 <img src="/image-1.png" alt="URL Page">
 
