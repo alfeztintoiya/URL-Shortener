@@ -3,6 +3,7 @@
 A modern URL shortener that helps you shorten, manage, and track your links with ease. Built with Node.js, Express.js, MongoDB, and EJS for server-side rendering.
 
 🚀 Features
+
 ✅ Shorten URLs - Convert long URLs into short, shareable links.
 
 ✅ Click Analytics - Track how many times a link has been clicked.
