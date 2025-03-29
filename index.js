@@ -9,6 +9,8 @@ require("dotenv").config()
 
 const PORT = process.env.PORT || 8001 ;
 const MONG_URI = process.env.MONG_URI;
+
+//routes
 const urlRoutes = require('./routes/url');
 const StaticRoute = require('./routes/StaticRoutes');
 const userRoute = require('./routes/user');
